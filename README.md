@@ -13,11 +13,13 @@
 
 We vectorialized elements that are present in the compound to minimize hardwired calculations and instead obtain answers from
 probablistic distribtutions. This would not only allow for broader generalization of compounds that could be present, but 
-also allow larger images to be processed.
+also allow larger images to be processed. Naturally, since there are 10 standard elements to choose from, 10-d vectors are created for
+the sake of calculating the confidence interval.
 
 ### Installation Instructions
 
-##Strongly recommended that you use anaconda for handling Python packages.
+## Strongly recommended that you use Anaconda for handling Python packages.
+## Strongly recommend that you look at the documentation.py to get a track of how the code runs
 
 | Name  | Version |
 | ------------- | ------------- |
